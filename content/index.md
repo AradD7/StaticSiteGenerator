@@ -24,14 +24,14 @@ Here's the deal, **I like Tolkien**.
 ## My favorite characters (in order)
 
 1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+2. Aragorn
+3. Sauron
+4. Bilbo
+5. Sam
+6. Glorfindel
+7. Galadriel
+8. Elrond
+9. Thorin
 
 Here's what `elflang` looks like (the perfect coding language):
 
