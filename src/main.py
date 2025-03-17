@@ -21,7 +21,7 @@ def generate_page(from_path, template_path, dest_path, BASEPATH):
     html_content = markdown_to_html_node(md_string).to_html()
     html_title = extract_title(md_string)
 
-    final_html_string = html_string.replace("{{ Title }}", html_title).replace("{{ Content }}", html_content).replace('href="/', f'href="{BASEPATH}').replace('src="/', f'src="/{BASEPATH}')
+    final_html_string = html_string.replace("{{ Title }}", html_title).replace("{{ Content }}", html_content).replace('href="/', f'href="{BASEPATH}').replace('src="/', f'src="{BASEPATH}')
     if not(os.path.exists(os.path.dirname(dest_path))):
         os.makedirs(os.path.dirname(dest_path))
     final_html_file = open(dest_path, 'w')
